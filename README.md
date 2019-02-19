@@ -1,7 +1,8 @@
 # SpotifyChecker
 - ~~Mass Spotify Accounts Checker v0.1 (Uploaded on 19/02/2019 01.20 IST)~~
 - Mass Spotify Accounts Checker v0.2 (Updated on 19/02/2019 17.35 IST)
-
+## For Educational Purposes Only!! xD
+###### P.S. You Know What I Mean! xD
 ## Alpha Release Notes!!
 * The email:password combo type is Still Under Development!
 * Completely Functional
@@ -12,3 +13,13 @@
 
 ### Regards,
 ### @jaynammodi!🖖🏻
+
+## HOW TO USE!!
+* Open a Terminal Run `pkg install git && pkg install curl && pkg update`
+* Next, Run `git clone https://github.com/jaynammodi/SpotifyChecker`
+* Navigate to the Newly Created SpotifyChecker Directory using `cd SpotifyChecker`
+* The Program has Now been Installed and Can be Run!!
+* To Start the Program Use `php checker.php`
+* Follow the Instructions!
+* Make Sure you move the Combo File to the Same Directory as the Checker!
+* Peace!🖖🏻
