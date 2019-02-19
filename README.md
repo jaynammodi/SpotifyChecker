@@ -23,3 +23,7 @@
 * Follow the Instructions!
 * Make Sure you move the Combo File to the Same Directory as the Checker!
 * Peace!🖖🏻
+#### Have Questions?
+* Join the Conversation at https://t.me/VoldemortCommunity !!
+* DM me @jaynammodi !!
+* DM me on Telegram https://t.me/hewhomustn0tbenamed !!
