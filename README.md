@@ -12,7 +12,7 @@
 * Enjoy!!
 
 ### Regards,
-### @jaynammodi!🖖🏻
+### @voldemort1912!🖖🏻
 
 ## HOW TO USE!!
 * Open a Terminal Run `pkg install git && pkg install curl && pkg update`
