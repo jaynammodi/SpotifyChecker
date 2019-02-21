@@ -9,15 +9,16 @@
 ## Alpha Release Notes!!
 * ~~The email:password combo type is Still Under Development!~~
 * Completely Functional
-* Code Optimisation and Formatting/Processing of Output is Pending!
+* ~~Code Optimisation and~~ 
+Formatting/Processing of Output is Pending!
 * Report any Bugs at https://t.me/hewhomustn0tbenamed (Telegram)
 * Join the Group at https://t.me/VoldemortCommunity (Telegram)
 * Enjoy!!
 
 ## To-Do
 
-* ~~Create Banner
-* ~~Add email:password Combo Support
+* ~~Create Banner~~
+* ~~Add email:password Combo Support~~
 * Parse Output
 * Colourise Output
 * Add Functionality to Store Output as .txt File
