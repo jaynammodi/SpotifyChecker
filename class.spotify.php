@@ -14,7 +14,7 @@ class spotify
 
 {
 	public function check($username, $password, $type){
-	if ($type == '1'){
+	if ($type == 1){
 		$ch = curl_init('https://accounts.spotify.com/it-IT/login');
 		$headers = array();
 		$headers[] = "Accept-Encoding: gzip, deflate, sdch, br";
