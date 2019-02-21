@@ -60,7 +60,7 @@ if (trim($ln) == 'yes') {
 			$inppass = trim($var[1]);
 			$res = $spotify->check($usernn, $inppass, $comtype);
 			echo "[!]Username : " . $usernn . "\n";
-			echo "[!]Password : " . $inppass;
+			echo "[!]Password : " . $inppass . "\n";
 			echo "[!]" . $res . "\n\n";
 		}
 	/*}
