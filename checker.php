@@ -27,7 +27,7 @@ echo "\033[01;31m\n[•]You're Responsible For your Actions. Use Wisely.
 [•]Huge Thanks to @DrWean for His Outdated GitHub Repo.
 [•]Thank You to all the Testers!! and StackOverflow.
 \033[0m";
-include ('class.spotify2.php');
+include ('class.spotify.php');
 
 echo "\n\033[51;33;1m[i]Are You Sure You Want To Do This?  Type \033[01;32;1m'yes'\033[51;33;1m to Continue :\033[0m ";
 $handle3 = fopen("php://stdin", "rb");
