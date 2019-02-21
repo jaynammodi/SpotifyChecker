@@ -75,7 +75,7 @@ if (trim($ln) == 'yes') {
 	}
 }
 else {
-	echo "\033[05;31mABORTING....\nThe Program will Now Exit!!\\nPress Enter to Continue...\033[0m";
+	echo "\033[05;31mABORTING....\nThe Program will Now Exit!!\nPress Enter to Continue...\033[0m";
 	fgetc(STDIN);
 	exit;
 }
