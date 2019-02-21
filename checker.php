@@ -69,7 +69,7 @@ if (trim($ln) == 'yes') {
 
 		// echo $comtype."2";
 
-		echo "\033[05;\033;1mCOMING SOON!!!\nThe Program will Now Exit!!\nPress Enter to Continue...\033[0m";
+		echo "\033[05;33;1mCOMING SOON!!!\nThe Program will Now Exit!!\nPress Enter to Continue...\033[0m";
 		fgetc(STDIN);
 		exit;
 	}
