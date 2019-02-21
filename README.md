@@ -53,5 +53,5 @@ Formatting/Processing of Output is Pending!
 * Peace!🖖🏻
 #### Have Questions?
 * Join the Conversation at https://t.me/VoldemortCommunity !!
-* DM me @jaynammodi !!
+* DM me @Voldemort1912 !!
 * DM me on Telegram https://t.me/hewhomustn0tbenamed !!
