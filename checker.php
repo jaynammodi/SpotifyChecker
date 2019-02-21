@@ -29,7 +29,7 @@ echo "\033[01;31m\n[•]You're Responsible For your Actions. Use Wisely.
 \033[0m";
 include ('class.spotify.php');
 
-echo "\n\033[51;\033;1m[i]Are You Sure You Want To Do This?  Type \033[01;32;1m'yes'\033[51;\033;1m to Continue :\033[0m ";
+echo "\n\033[51;33;1m[i]Are You Sure You Want To Do This?  Type \033[01;32;1m'yes'\033[51;33;1m to Continue :\033[0m ";
 $handle3 = fopen("php://stdin", "rb");
 $ln = fgets($handle3);
 
@@ -49,7 +49,7 @@ if (trim($ln) == 'yes') {
 
 	if (trim($comtype) == '1') {
 		echo "\n\033[01;32;1m[i]Let's Begin...\n";
-		echo "\033[51;\033;1m[i]Press Ctrl+C or Tap and Hold ~> More ~> Kill Process to Exit before The Execution Completes!\033[0m\n\n\n";
+		echo "\033[51;033;1m[i]Press Ctrl+C or Tap and Hold ~> More ~> Kill Process to Exit before The Execution Completes!\033[0m\n\n\n";
 
 		// echo $comtype."1";
 
