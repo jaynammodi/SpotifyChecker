@@ -44,7 +44,7 @@ Formatting/Processing of Output is Pending!
 
 ## HOW TO USE!!
 * Open a Terminal Run `pkg install git && pkg install curl && pkg update`
-* Next, Run `git clone https://github.com/jaynammodi/SpotifyChecker`
+* Next, Run `git clone https://github.com/VoldemortCommunity/SpotifyChecker`
 * Navigate to the Newly Created SpotifyChecker Directory using `cd SpotifyChecker`
 * The Program has Now been Installed and Can be Run!!
 * To Start the Program Use `php checker.php`
