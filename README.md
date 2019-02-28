@@ -12,7 +12,7 @@
 * ~~Code Optimisation and~~ 
 Formatting/Processing of Output is Pending!
 * Report any Bugs at https://t.me/hewhomustn0tbenamed (Telegram)
-* Join the Group at https://t.me/VoldemortCommunity (Telegram)
+* Join the Group at https://t.me/TeamAnomaly (Telegram)
 * Enjoy!!
 
 ## To-Do
@@ -52,6 +52,6 @@ Formatting/Processing of Output is Pending!
 * Make Sure you move the Combo File to the Same Directory as the Checker!
 * Peace!🖖🏻
 #### Have Questions?
-* Join the Conversation at https://t.me/VoldemortCommunity !!
+* Join the Conversation at https://t.me/TeamAnomaly !!
 * DM me @Voldemort1912 !!
 * DM me on Telegram https://t.me/hewhomustn0tbenamed !!
