@@ -2,8 +2,8 @@
 <?php
 /*
 * Created by @Voldemort1912
-* Last Update: 22/02/2019
-* Time: 00.40
+* Last Update: 13/03/2019
+* Time: 2200
 * Telegram @hewhomustnotbenamed
 */
 
@@ -46,7 +46,7 @@ system("figlet -c 'Spotify Checker'");
 echo"\033[0m";
 sleep(2);
 echo "\n\n
-\033[01;31m[•]\033[09;31mv0.1v0.2v0.3\033[0m\033[01;31mv0.4 Developed by \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram).\n";
+\033[01;31m[•]\033[09;31mv0.1v0.2v0.3\033[0m\033[01;31mv1.0 Developed by \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram).\n";
 sleep(3);
 echo "\033[01;31m[•]You're Responsible For your Actions. Use Wisely.\n";
 sleep(1);
