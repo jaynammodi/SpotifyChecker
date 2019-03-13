@@ -20,7 +20,7 @@ echo "\033[01;31m
 //system('figlet -f big -c SpotifyChecker!!');
 //echo "v0.22\033[0m";
 echo "\n\n
-\033[01;31m[•]\033[09;31mv0.1\033[0m\033[01;31mv0.2 Developed by \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram).\033[0m\n Press Enter to Continue...\n";
+\033[01;31m[•]\033[09;31mv0.1v0.2\033[0m\033[01;31mv0.3 Developed by \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram).\033[0m\n Press Enter to Continue...\n";
 fgetc(STDIN);
 echo "\033[01;31m\n[•]You're Responsible For your Actions. Use Wisely.
 [•]Join \033[01;32;1m@VoldemortCommunity (Telegram)\033[01;31m for More!.
