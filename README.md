@@ -4,6 +4,7 @@
 - ~~Mass Spotify Accounts Checker v0.2.1 (Updated on 20/02/2019 19.23 IST)~~
 - ~~Mass Spotify Accounts Checker v0.2.2 (Updated on 21/02/2019 14.00 IST)~~
 - Mass Spotify Accounts Checker v0.3 (Updated on 22/02/2019 00.50 IST)
+## v0.4 Dropping Soon!
 ## For Educational Purposes Only!! xD
 ###### P.S. You Know What I Mean! xD
 ## Alpha Release Notes!!
