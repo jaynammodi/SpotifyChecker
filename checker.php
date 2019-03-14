@@ -11,7 +11,7 @@
 $loc_ver = trim(file_get_contents('.version'));
 //FIRST RUN (Install Dependencies)
 if (is_file(".first")){
-	$firstrun = file_get_contents('.first');
+	$firstrun = trim(file_get_contents('.first'));
 }else{
 	$firstrun = true;
 }
@@ -72,6 +72,7 @@ if($glo_ver > $loc_ver){
 	if (trim($ln) == 'yes'){
 		echo "\033[05;32;1m[i] Updating Now...\n[i] Press Enter to Start...\033[0m";
 		fgetc(STDIN);
+		system('rm -rf .first');
 		system('git reset --hard');
 		system('git pull origin master');
 		echo "\033[01;32;1m[i] Update Complete!! Please Restart to see Changes!!";
