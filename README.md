@@ -20,7 +20,7 @@
 ## Changelog
 
 ### v1.1
-* Fixed Bugs!
+* Fixed Bugs & Updater!
 
 ### v1.0
 * ***v1.0 is Out Now!!***
