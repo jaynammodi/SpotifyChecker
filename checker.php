@@ -2,13 +2,13 @@
 <?php
 /*
 * Created by @Voldemort1912
-* Last Update: 13/03/2019
-* Time: 2200
+* Last Update: 14/03/2019
+* Time: 1800
 * Telegram @hewhomustnotbenamed
 */
 
 // DO NOT MODIFY!! I WILL NOT BE RESPONSIBLE FOR ANY KIND OF MODIFICATIONS WHICH HINDER THE FUNCTIONABILITY OF THE PROGRAM!!!
-
+$loc_ver = trim(file_get_contents('.version'));
 //FIRST RUN (Install Dependencies)
 if (is_file(".first")){
 	$firstrun = file_get_contents('.first');
@@ -46,7 +46,7 @@ system("figlet -c 'Spotify Checker'");
 echo"\033[0m";
 sleep(2);
 echo "\n\n
-\033[01;31m[•]\033[09;31mv0.1v0.2v0.3\033[0m\033[01;31mv1.0 Developed by \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram).\n";
+\033[01;31m[•]v".$loc_ver." Developed by \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram).\n";
 sleep(3);
 echo "\033[01;31m[•]You're Responsible For your Actions. Use Wisely.\n";
 sleep(1);
@@ -124,7 +124,7 @@ if(strpos($file, ".txt") == false){
 	$file .= ".txt";
 }
 system('rm -rf '.$file);
-file_put_contents($file, "[#] Spotify Checker v0.4\n[#] Made by @hewhomustn0tbenamed (Telegram)\n[#] GitHub: https://github.com/VoldemortCommunity\n\n[#] Feeling Generous? Donate: 3QheChfSnPqBVBsnm1DFYg9xoHQmbnXP6d [BTC]\n\n\n");
+file_put_contents($file, "[#] Spotify Checker v".$loc_ver."\n[#] Made by @hewhomustn0tbenamed (Telegram)\n[#] GitHub: https://github.com/VoldemortCommunity\n\n[#] Feeling Generous? Donate: 3QheChfSnPqBVBsnm1DFYg9xoHQmbnXP6d [BTC]\n\n\n");
 
 $count = 0;
 $combocount = 0;

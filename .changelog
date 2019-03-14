@@ -1,9 +1,10 @@
-**v1.0**
+**v1.1**
 
-? v1.0 is Out Now!!
-? Colourised Output!! Hits are now GREEN!! 
-? Added Functionality to Save Hits!!
-? Added Updater!! Automatically Check for Updates Before Each Run!!
-? Added Automatic Configuration & Dependencies Installation on First Run!!
-? Removed Username:Password Combo Type as it was Obsolete
-? Some Under-The-Hood Changes..UI Tweaks & Performance Upgrades!!
+- Fixed Bugs!
+- v1.0 is Out Now!!
+- Colourised Output!! Hits are now GREEN!! 
+- Added Functionality to Save Hits!!
+- Added Updater!! Automatically Check for Updates Before Each Run!!
+- Added Automatic Configuration & Dependencies Installation on First Run!!
+- Removed Username:Password Combo Type as it was Obsolete
+- Some Under-The-Hood Changes..UI Tweaks & Performance Upgrades!!
