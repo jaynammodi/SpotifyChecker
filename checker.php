@@ -145,7 +145,7 @@ foreach((array) $lines as $line) {
 	if($dec["status"]==true){
 		$count++;
 		echo "\033[01;32;1m";
-		file_put_contents($file, "[!]Email ID : ".$usernn."\n[!]Password : ".$inppas."\n[i]SpotifyChecker by @hewhomustn0tbenamed (Telegram)!!\n[!]".$res."\n\n", FILE_APPEND);
+		file_put_contents($file, "[!]Email ID : ".$usernn."\n[!]Password : ".$inppass."\n[i]SpotifyChecker by @hewhomustn0tbenamed (Telegram)!!\n[!]".$res."\n\n", FILE_APPEND);
 	} else {
 		echo "\033[01;31m";
 	}
