@@ -1,3 +1,10 @@
+IMPORTANT!!!
+
+The Updater was Broken on v1.0!! You'll have to Update Manually!!
+To Do So!! Just Copy Paste the Following Command!
+
+cd .. && rm -rf SpotifyChecker && git clone https://github.com/VoldemortCommunity/SpotifyChecker
+
 **v1.1**
 
 - Fixed Bugs!
