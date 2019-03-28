@@ -5,7 +5,8 @@
 - ~~Mass Spotify Accounts Checker v0.2.2 (Updated on 21/02/2019 14.00 IST)~~
 - ~~Mass Spotify Accounts Checker v0.3 (Updated on 22/02/2019 00.50 IST)~~
 - ~~Mass Spotify Accounts Checker v1.0 (Updated on 13/03/2019 2200 IST)~~
-- Mass Spotify Acxounts Checker v1.1 (Updated on 14/03/2019 1800 IST)
+- ~~Mass Spotify Acxounts Checker v1.1 (Updated on 14/03/2019 1800 IST)~~
+- Mass Spotify Accounts Checker v1.2 (Updated on 28/03/2019 1330 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
@@ -18,6 +19,14 @@
 * Enjoy!!
 
 ## Changelog
+
+### v1.2
+* Fixed Bugs!
+* ***Added Output Parsing***
+* ***Added Option to Display Only Hits***
+* Improved UI
+* Completely Noob Friendly Now!!
+
 
 ### v1.1
 * Fixed Bugs & Updater!

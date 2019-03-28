@@ -1,9 +1,11 @@
-IMPORTANT!!!
 
-The Updater was Broken on v1.0!! You'll have to Update Manually!!
-To Do So!! Just Copy Paste the Following Command!
+**v1.2**
 
-cd .. && rm -rf SpotifyChecker && git clone https://github.com/VoldemortCommunity/SpotifyChecker
+- Fixed Bugs!
+- Added Output Parsing
+- Added Option to Display Only Hits
+- Improved UI
+- Completely Noob Friendly Now!!
 
 **v1.1**
 
