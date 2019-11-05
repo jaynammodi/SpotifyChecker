@@ -6,7 +6,8 @@
 - ~~Mass Spotify Accounts Checker v0.3 (Updated on 22/02/2019 00.50 IST)~~
 - ~~Mass Spotify Accounts Checker v1.0 (Updated on 13/03/2019 2200 IST)~~
 - ~~Mass Spotify Acxounts Checker v1.1 (Updated on 14/03/2019 1800 IST)~~
-- Mass Spotify Accounts Checker v1.2 (Updated on 28/03/2019 1330 IST)
+- ~~Mass Spotify Accounts Checker v1.2 (Updated on 28/03/2019 1330 IST)~~
+- Mass Spotify Accounts Checker v1.3 (Updated on 05/11/2019 1448 IST)
 
 ## For Educational Purposes Only!!
 #### I Will Not be Responsible for Any Kind of Problems That Arise due to Unfair Usage!!
@@ -19,6 +20,12 @@
 * Enjoy!!
 
 ## Changelog
+
+
+### v1.3
+* ***"errorCSRF" Fixed, Thanks to @strflw (Github)***
+
+
 
 ### v1.2
 * Fixed Bugs!
@@ -33,7 +40,7 @@
 
 ### v1.0
 * ***v1.0 is Out Now!!***
-* **Colourised Output!! Hits are now GREEN!!** 
+* **Colourised Output!! Hits are now GREEN!!**
 * **Added Functionality to** ***Save Hits!!***
 * ***Added Updater!!*** Automatically Check for Updates Before Each Run!!
 * Added Automatic Configuration & Dependencies Installation on First Run!!
