@@ -281,7 +281,7 @@ class spotify{
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_HEADER, 1);
         $result = curl_exec($ch);
-        preg_match('/^Set-Cookie:\s*([^;]*)/mi', $result, $m);
+        preg_match('/^Set-Cookie:\s*(csrf[^;]*)/mi', $result, $m);
         parse_str($m[1], $cookies);
         $token = $cookies['csrf_token'];
 
