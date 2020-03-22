@@ -1,0 +1,6 @@
+colorama
+requests
+bs4
+pprint
+cssselect
+prompt_toolkit==1.0.14
