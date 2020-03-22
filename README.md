@@ -89,7 +89,7 @@
 ## Donate
 
 - <img src="https://img.shields.io/badge/Donate-BTC-brightgreen.svg?logo=Bitcoin"> : `3BJghXSoE82JP1ioSKBUqTZ5mdJJTQd2e3`
-- <a href="https://paypal.me/Voldemort1912><img src="https://img.shields.io/badge/PayPal-Donate-blue.svg?logo=PayPal"> : PayPal </a>
+- [<img src="https://img.shields.io/badge/PayPal-Donate-blue.svg?logo=PayPal"> : PayPal](https://paypal.me/Voldemort1912)
 
 ## HOW TO USE.
 * Open a Terminal & Run `pkg update && pkg upgrade && pkg install git python -y`
