@@ -95,7 +95,7 @@
 * Open a Terminal & Run `pkg update && pkg upgrade && pkg install git python -y`
 * Next, Run `git clone https://github.com/VoldemortCommunity/SpotifyChecker`
 * Navigate to the Newly Created SpotifyChecker Directory using `cd SpotifyChecker`
-* To Start the Program Use `python spotifychecker`
+* To Start the Program Use `python SpotifyChecker`
 * It Will Automatically Install Dependencies & Configure Everything on the First Run. Grant Storage Permissions for Android 7.0 & Higher if Prompted to do So.
 * Follow the Onscreen Instructions
 * Make Sure you move the Combo List to *Internal Storage/VoldemortCommunity/SpotifyChecker/ComboLists*
