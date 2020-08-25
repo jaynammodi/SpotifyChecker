@@ -1,3 +1,5 @@
+# Due to the nee changes in Spotify's Login system, the program is rather useless at the moment. And thus it had been archivrd.
+
 <a href="https://www.python.org/download/releases/3.0/"><IMG src="https://img.shields.io/pypi/pyversions/3.svg?label=Python&logo=python"></a>
 <a href="https://t.me/VoldemortCommunity"><img src="https://img.shields.io/badge/Telegram-Group-blue.svg?logo=Telegram"></a>
 
